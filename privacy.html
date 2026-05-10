@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Facebook Group Events Summarizer</title>
+  <meta name="description" content="Privacy Policy for Facebook Group Events Summarizer — a macOS app for scraping Facebook group events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-icon">📅</span>
+        Facebook Group Events Summarizer
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html" class="active">Privacy Policy</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: May 9, 2026</p>
+
+    <h2>Overview</h2>
+    <p>Facebook Group Events Summarizer is a macOS application that runs locally on your computer. This policy explains what data the app accesses and how it is handled.</p>
+
+    <h2>Data We Collect</h2>
+    <p><strong>Facebook Group Events Summarizer does not collect any data.</strong> The app runs entirely on your Mac. No analytics, no telemetry, no usage tracking, no cloud servers.</p>
+
+    <h2>Facebook Data</h2>
+    <p>To function, the app accesses your Facebook account through a browser session:</p>
+    <ul>
+      <li><strong>Session cookies</strong> — Stored locally in <code>~/Library/Containers/com.georgetraver.fbgroupsevents/Data/</code>. These authenticate you with Facebook during event scanning. They never leave your machine.</li>
+      <li><strong>Group names and event data</strong> — Scraped from Facebook's web pages and stored locally in <code>~/Library/Containers/com.georgetraver.fbgroupsevents/Data/events.json</code>. You can delete this file at any time.</li>
+    </ul>
+    <p>No Facebook data is ever transmitted to us, to any server, or to any third party.</p>
+
+    <h2>Third-Party Software</h2>
+    <p>The app uses these open-source libraries, all running entirely locally:</p>
+    <ul>
+      <li><strong>Playwright</strong> — Browser automation (Chromium-based). Renders Facebook's web pages to extract event data.</li>
+      <li><strong>PyQt6</strong> — Desktop UI framework.</li>
+      <li><strong>Chromium</strong> — Embedded browser engine. Runs in isolation with no connection to Google services.</li>
+    </ul>
+
+    <h2>Data Deletion</h2>
+    <p>You can delete all locally stored data at any time:</p>
+    <ol>
+      <li>Open the app and go to <strong>Account → Log Out</strong> to clear your Facebook session.</li>
+      <li>Delete <code>~/Library/Containers/com.georgetraver.fbgroupsevents/Data/</code> to remove all cached data.</li>
+      <li>Delete the app from Applications to remove all traces.</li>
+    </ol>
+
+    <h2>Third-Party Links</h2>
+    <p>Exported HTML files may contain links to Facebook at <code>https://www.facebook.com</code>. We are not responsible for Facebook's privacy practices.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the date at the top will be updated. Continued use of the app after changes constitutes acceptance.</p>
+
+    <h2>Contact</h2>
+    <p>For questions: <a href="mailto:drewsupport@icloud.com">drewsupport@icloud.com</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand"><strong>Facebook Group Events Summarizer</strong><p>Never miss a Facebook group event again.</p></div>
+        <div class="footer-links">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#download">Download</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Facebook Group Events Summarizer. All rights reserved.</p></div>
+    </div>
+  </footer>
+</body>
+</html>

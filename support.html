@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Facebook Group Events Summarizer</title>
+  <meta name="description" content="Get help with Facebook Group Events Summarizer — a macOS app for scraping Facebook group events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .support-body { max-width: 800px; margin: 0 auto; padding: 72px 24px 96px; }
+    .support-body h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 10px; }
+    .support-sub { font-size: 17px; color: var(--muted); margin-bottom: 56px; }
+    .support-body h2 { font-size: 20px; font-weight: 700; margin: 48px 0 16px; color: #fff; }
+    .support-body p, .support-body li { font-size: 15px; color: var(--muted); line-height: 1.75; }
+    .support-body ul, .support-body ol { margin: 0 0 16px 20px; }
+    .support-body ul li, .support-body ol li { margin-bottom: 6px; }
+    .support-body ol li strong { color: #fff; }
+    .contact-card { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 32px 36px; margin-top: 16px; display: flex; align-items: flex-start; gap: 28px; }
+    .contact-icon { font-size: 36px; flex-shrink: 0; }
+    .contact-info h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; color: #fff; }
+    .faq-item { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 24px 28px; margin-bottom: 12px; }
+    .faq-item h3 { font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 10px; }
+    .faq-item p { margin: 0; }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-icon">📅</span>
+        Facebook Group Events Summarizer
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="support.html" class="active">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="support-body">
+    <h1>Support</h1>
+    <p class="support-sub">Need help? Reach out any time or browse the FAQ below.</p>
+
+    <h2>Contact</h2>
+    <div class="contact-card">
+      <div class="contact-icon">✉️</div>
+      <div class="contact-info">
+        <h3>Facebook Group Events Summarizer Support</h3>
+        <p>Email: <a href="mailto:drewsupport@icloud.com">drewsupport@icloud.com</a></p>
+      </div>
+    </div>
+
+    <h2>Getting Started</h2>
+    <ol>
+      <li><strong>Log In</strong> — Click "Log In to Facebook." A browser opens. Log into your Facebook account. Your session is saved.</li>
+      <li><strong>Detect Groups</strong> — Click "Detect My Groups." All your groups appear. Check the ones you want.</li>
+      <li><strong>Scan Events</strong> — Click "Scan Selected Groups." Upcoming events populate the table. Sort by clicking column headers.</li>
+      <li><strong>Export</strong> — Click "Export" and save as HTML. Open the file — every URL is a clickable link.</li>
+    </ol>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>Why does the app need to open a browser?</h3>
+      <p>Facebook loads its content dynamically with JavaScript. A real browser is required to render the pages and extract events. That's also why the app includes Chromium (about half the file size).</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I see events for only some of my groups?</h3>
+      <p>After clicking "Detect My Groups," each group appears in the left panel with a checkbox. Uncheck any groups you don't want to scan. Only checked groups will be scanned.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>The date column shows YYYY-MM-DD, not "May 9"</h3>
+      <p>Dates in the table are stored in YYYY-MM-DD format for proper chronological sorting. The original display date (like "May 9") appears in the exported HTML file.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Groups show numeric IDs instead of names</h3>
+      <p>Run "Detect My Groups" again. This can happen if Facebook's page structure changes between sessions.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>My login session expired</h3>
+      <p>Go to Account → Log Out, then click Log In to re-authenticate. The app saves your new session for reuse.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Does this violate Facebook's terms?</h3>
+      <p>Facebook Group Events Summarizer automates what you can already do manually — visit each group's events page and note the dates. It does not modify or bypass anything. Use responsibly.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand"><strong>Facebook Group Events Summarizer</strong><p>Never miss a Facebook group event again.</p></div>
+        <div class="footer-links">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#download">Download</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Facebook Group Events Summarizer. All rights reserved.</p></div>
+    </div>
+  </footer>
+</body>
+</html>

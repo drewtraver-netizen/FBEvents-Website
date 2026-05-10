@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook Group Events Summarizer — Never Miss a Group Event</title>
+  <meta name="description" content="Facebook Group Events Summarizer — a macOS app that scrapes upcoming events from your selected Facebook groups. Auto-detect groups, scan events, export with clickable links." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-icon">📅</span>
+        FB Group Events
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="badge">macOS App · Now with Dark/Blue Theme</div>
+          <h1>Every Facebook group event. In one place.</h1>
+          <p class="tagline">Facebook Group Events Summarizer scans your groups and pulls out every upcoming event — automatically. Sort by date, export with real clickable links. No API keys needed.</p>
+          <div class="hero-cta">
+            <a href="#download" class="btn-primary">Download for macOS</a>
+            <a href="#how-it-works" class="btn-ghost">How It Works</a>
+          </div>
+          <p class="hero-footnote">macOS 13+ · Requires Facebook login</p>
+        </div>
+        <div class="hero-visual">
+          <div class="mock-window">
+            <div class="mock-bar new-theme">
+              <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+              <span class="mock-title">Facebook Group Events Summarizer</span>
+            </div>
+            <div class="mock-body">
+              <div class="mock-toolbar new-theme">
+                <span class="mock-tab">🔑 Log In</span>
+                <span class="mock-tab active">📋 Detect Groups</span>
+                <span class="mock-tab active">📅 Scan</span>
+                <span class="mock-tab">📤 Export</span>
+                <span class="mock-status">Detecting Facebook Groups… 42 found.</span>
+                <span class="mock-user">● Logged in</span>
+              </div>
+              <div class="mock-main">
+                <div class="mock-side">
+                  <div class="mock-label">Your Groups</div>
+                  <div class="mock-controls">
+                    <span class="mock-control active">Select All</span>
+                    <span class="mock-control">Deselect All</span>
+                  </div>
+                  <div class="mock-item checked">Central Oregon Overland</div>
+                  <div class="mock-item checked">4Runners of Washington</div>
+                  <div class="mock-item checked">Utah Overland</div>
+                  <div class="mock-item checked">PNW Overlanding</div>
+                  <div class="mock-item">Vegas 4Runners</div>
+                </div>
+                <div class="mock-grid">
+                  <div class="mock-grid-row head"><span class="sort-by">Group</span><span class="sort-by">Title</span><span class="sort-by sort-asc">Date ⬆</span><span>URL</span></div>
+                  <div class="mock-grid-row"><span>PNW Overlanding</span><span>Jeeps Go Topless</span><span class="date">May 15</span><span class="url">🔗</span></div>
+                  <div class="mock-grid-row"><span>PNW Overlanding</span><span>Climbing the BIG 40</span><span class="date">May 22</span><span class="url">🔗</span></div>
+                  <div class="mock-grid-row"><span>4Runners WA</span><span>Toyota Summer Jam</span><span class="date">Jun 20</span><span class="url">🔗</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HOW IT WORKS -->
+  <section class="section steps-section" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">Three clicks. That's it.</h2>
+      <p class="section-sub">No setup. No configuration. Just open, log in, and go.</p>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h3>Log In</h3>
+          <p>Click Log In. A browser opens. Log into Facebook once — your session is saved for next time.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h3>Select Groups</h3>
+          <p>Click <strong>Detect Groups</strong> — all your groups appear with names, not IDs. Check the ones you want.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h3>Scan &amp; Export</h3>
+          <p>Click <strong>Scan Selected Group Events</strong> — events populate the table as they're found. Sort by date. Export as HTML with real clickable links.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section features-section" id="features">
+    <div class="container">
+      <h2 class="section-title">Everything you need</h2>
+      <p class="section-sub">Built for one job: finding every upcoming event in your Facebook groups.</p>
+      <div class="features-grid">
+        <div class="feature-card"><span class="fi">🔑</span><h3>Persistent Login</h3><p>Log in once. Your session is saved. Never re-enter credentials.</p></div>
+        <div class="feature-card"><span class="fi">📋</span><h3>Auto-Detect 47+ Groups</h3><p>All your groups found automatically — including ones with text-based URLs. No manual entry needed.</p></div>
+        <div class="feature-card"><span class="fi">📅</span><h3>Future Events Only</h3><p>Only upcoming events shown. Past events filtered out. Chronological date sorting built in.</p></div>
+        <div class="feature-card"><span class="fi">⏱️</span><h3>Live Progress</h3><p>Events populate the table as each group is scanned. See results instantly, not all at the end.</p></div>
+        <div class="feature-card"><span class="fi">🔗</span><h3>Real Event URLs</h3><p>Every event links directly to its Facebook page. Click to open in your browser. Export with working links.</p></div>
+        <div class="feature-card"><span class="fi">📤</span><h3>HTML Export</h3><p>Export in your current sort order with real clickable URLs. Open in any browser or share.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section class="section download-section" id="download">
+    <div class="container">
+      <h2 class="section-title">Download Facebook Group Events Summarizer</h2>
+      <p class="section-sub">Requires macOS 13.0 or later. An internet connection is needed for Facebook login and scanning.</p>
+      <div class="download-card">
+        <div class="dc-left">
+          <h3>Version 1.0</h3>
+          <p class="dc-meta">macOS 13+ · Apple Silicon &amp; Intel</p>
+          <ul class="dc-list">
+            <li>✅ Auto-detect all your Facebook groups (47+ supported)</li>
+            <li>✅ Scan upcoming events with real names and dates</li>
+            <li>✅ Sortable columns — click any header to sort</li>
+            <li>✅ Clickable event URLs — also in exported HTML</li>
+            <li>✅ Incremental scanning — events appear as they're found</li>
+            <li>✅ Dark/blue modern theme</li>
+            <li>✅ Persistent login &mdash; log in once</li>
+          </ul>
+        </div>
+        <div class="dc-right">
+          <a href="#" class="btn-primary btn-lg">Download</a>
+          <p class="dc-note">Download link coming soon. The app is currently in testing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">Does this use the Facebook API? <span>+</span></button>
+          <div class="faq-a"><p>No. Facebook removed the group events API years ago. This app uses browser automation (WKWebView) to extract the events you can already see — it just saves you the scrolling. No API key needed.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Is my Facebook login safe? <span>+</span></button>
+          <div class="faq-a"><p>Yes. Your session is stored locally in the app's sandboxed storage. Nothing is sent anywhere — the app runs entirely on your Mac. You can log out from the Log In button.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How are events extracted? <span>+</span></button>
+          <div class="faq-a"><p>The app navigates to each group's events page, reads the visible text to find dates and titles, then pairs them with real event URLs from the page's links. No scraping or cheating.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I export events? <span>+</span></button>
+          <div class="faq-a"><p>Click Export and save an HTML file. Open it in any browser — every event title is a clickable link to the Facebook event page.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <strong>Facebook Group Events Summarizer</strong>
+          <p>Never miss a Facebook group event again.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#download">Download</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Facebook Group Events Summarizer. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
