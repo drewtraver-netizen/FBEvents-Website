@@ -13,9 +13,9 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/drewtraver-netizen/FBEvents-Website/releases/download/v1.1/FBEvents.dmg"
-        length="1511926"
+        length="1510721"
         type="application/octet-stream"
-        sparkle:edSignature="TegwxNmTao15Av+GbixIF3Yn8Xpa31XP24841EN+FJkF0XW4VysF4SqQ5HEPqike65WbmV3LRVtaE7X2s+BNAA=="
+        sparkle:edSignature="5wL4AneayMKimd25DmCguk9JxuRbat99m+l/Iz2Yh6Xk9a0orhW46kWQv2vxP+HRnS++h1mGtdspdelK319VDw=="
       />
     </item>
   </channel>
