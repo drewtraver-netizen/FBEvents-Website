@@ -115,7 +115,7 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 .dc-list { list-style: none; }
 .dc-list li { padding: 3px 0; font-size: 0.9rem; color: var(--muted); }
 .dc-right { display: flex; flex-direction: column; justify-content: center; gap: 12px; }
-.dc-note { font-size: 0.8rem; color: #555; }
+.dc-note { font-size: 0.8rem; color: #bbb; }
 
 /* ── FAQ ── */
 .faq-section { background: var(--panel2); }
