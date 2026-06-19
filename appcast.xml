@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>FBEvents</title>
+    <link>https://raw.githubusercontent.com/drewtraver-netizen/FBEvents-Website/main/appcast.xml</link>
+    <description>FBEvents update feed</description>
+    <language>en</language>
+    <item>
+      <title>FBEvents 1.1</title>
+      <pubDate>Thu, 19 Jun 2026 13:22:00 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/drewtraver-netizen/FBEvents-Website/releases/download/v1.1/FBEvents.dmg"
+        length="1803592"
+        type="application/octet-stream"
+        sparkle:edSignature="e7PbVyOLvgKCdTJj/xuhtcocuTzHEVd85BT4yraT8Zr0ZbCEFVZ8gcbdWqsS2+I13quThdA3649/M05vgQYmBQ=="
+      />
+    </item>
+  </channel>
+</rss>
