@@ -6,16 +6,16 @@
     <description>FBEvents update feed</description>
     <language>en</language>
     <item>
-      <title>FBEvents 1.1</title>
-      <pubDate>Thu, 19 Jun 2026 13:22:00 +0000</pubDate>
+      <title>FB Group Events 1.0</title>
+      <pubDate>Mon, 29 Jun 2026 19:42:00 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
-      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/drewtraver-netizen/FBEvents-Website/releases/download/v1.1/FBEvents.dmg"
-        length="1510721"
+        url="https://github.com/drewtraver-netizen/FBEvents-Website/releases/download/v1.0/FBEvents.dmg"
+        length="1744066"
         type="application/octet-stream"
-        sparkle:edSignature="5wL4AneayMKimd25DmCguk9JxuRbat99m+l/Iz2Yh6Xk9a0orhW46kWQv2vxP+HRnS++h1mGtdspdelK319VDw=="
+        sparkle:edSignature="S46szpavp+VPd9nv8mY0jdH8sl0vgZCazT7VkRjzPRgIw1IUpKlbpiN0SX5byOMdLx81AWYeK0Vp3A4QiVHxDQ=="
       />
     </item>
   </channel>
